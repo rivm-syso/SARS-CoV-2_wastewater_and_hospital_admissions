@@ -16,7 +16,7 @@ To use the scripts with your own data sets, the following three data sets are ne
       - vaccination: The different vaccination statuses included in the model, which should include the statuses in _vaccination_status_ in 0. settings.
       - percentage_vaccination: The vaccination coverage on day _x-t_ of vaccination status _y_, with _t_ the time it takes for a vaccine to become fully effective after administration. Vaccination coverage should lie between 0 and 1 and for a given day, municipality, and age group it should add to 1.
     
-    -  _df_municipality_ with columns:
+  - _df_municipality_ with columns:
       - date: The date
       - municipality: The municipalities which are included in the model. (Should be the same municipalities as in _df_vaccination_).
       - age_group: The different age groups which are considered. (Should be the age groups as in _df_vaccination_). If not 5, then _initials_hosp_ in 0. function should be updated to reflect the number of age groups.
