@@ -1,4 +1,6 @@
-# SARS-CoV-2_wastewater_and_hospital_admissions
+# Inferring Hospital Admissions from SARS-CoV-2 Virus Loads in Wastewater in the Netherlands, August 2020 – February 2022
+[Wouter A. Hetebrij](mailto://wouter.hetebrij@rivm.nl), Ana Maria de Roda Husman, Erwin Nagelkerke, Rudolf F.H.J. van der Beek, Senna C.J.L. van Iersel, Titus G.V. Breuning, Willemijn J. Lodder, Michiel van Boven
+Under review by Science of the Total Enviroment
 
 # How to use with own data
 
@@ -23,3 +25,6 @@ To use the scripts with your own data sets, the following three data sets are ne
       - load: The 10-log of the virus load at day _x_ in municipality _y_
       - hospitalizations: The number of hospitalisations at day _x_ in municipality _y_ of age group _z_. Should be an integer greater than or equal to 0.
       - population: The population at day _x_ of municipality _y_ of age group _z_, which should be at least 1.
+
+  # Data availability
+Contact [Wouter Hetebrij](mailto://wouter.hetebrij@rivm.nl) for questions regarding the data set used in the manuscript.
